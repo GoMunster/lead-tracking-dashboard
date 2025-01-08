@@ -3,7 +3,7 @@ import { google } from 'googleapis';
 import credentials from '../credentials.json';
 
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
-const SPREADSHEET_ID = 'your-spreadsheet-id'; // Replace with your Sheet ID
+const SPREADSHEET_ID = '1amAMTospARGYNrBDUblrjPuhshDNPZoW8Agc5OKVclA'; // Replace with your Sheet ID
 
 export async function getAuthClient() {
   const auth = new google.auth.GoogleAuth({
